@@ -1,0 +1,145 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+header {
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px 0;
+    text-align: center;
+}
+
+header h1 {
+    margin: 0;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 10px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+}
+
+main {
+    padding: 20px;
+}
+
+section {
+    margin-bottom: 20px;
+}
+
+form label {
+    display: block;
+    margin-top: 10px;
+}
+
+form input, form textarea {
+    width: 100%;
+    padding: 10px;
+    margin-top: 5px;
+}
+
+form button {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    margin-top: 10px;
+}
+
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 5px 0;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+.logo-container {
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+
+.company-logo {
+    max-width: 100%;
+    height: auto;
+    width: 350px; /* Adjust this value as needed */
+}
+
+@media (max-width: 500px) {
+    .company-logo {
+        width: 1500px; /* Adjust for smaller screens */
+    }
+}
+.contact-container {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    margin-top: 20px;
+    width: 300px;
+}
+
+.contact-item {
+    margin: 20px 0;
+}
+
+.contact-item img {
+    width: 100px;
+    height: 50px;
+    margin-right: 10px;
+    vertical-align: middle;
+}
+
+.contact-item a {
+    text-decoration: none;
+    color: #333;
+    font-size: 20px;
+    vertical-align: middle;
+}
+
+.contact-item a:hover {
+    color: #007BFF;
+}
+/* styles.css */
+#topBtn {
+    display: none; /* Awalnya tombol disembunyikan */
+    position: fixed; /* Posisi tetap di sudut kanan bawah */
+    bottom: 20px; /* Jarak dari bawah */
+    right: 30px; /* Jarak dari kanan */
+    z-index: 99; /* Pastikan tombol berada di atas elemen lainnya */
+    border: none; /* Hilangkan border */
+    outline: none; /* Hilangkan outline */
+    background-color: #555; /* Warna latar belakang */
+    color: white; /* Warna teks */
+    cursor: pointer; /* Ganti cursor saat hover */
+    padding: 15px; /* Padding dalam tombol */
+    border-radius: 10px; /* Membulatkan sudut tombol */
+    font-size: 24px; /* Ukuran font */
+}
+
+#topBtn:hover {
+    background-color: #333; /* Warna latar belakang saat dihover */
+}
+
+#topBtn i {
+    font-size: 24px; /* Ukuran ikon */
+}
